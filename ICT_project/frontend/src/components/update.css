@@ -1,0 +1,38 @@
+.createForm {
+    margin: 150px auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 2px solid ;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    width: 500px;
+  }
+  
+  .form-label {
+    color: #000; /* Set text color to black */
+    font-weight: bold; /* Set font weight to bold */
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: #fff; /* Set text color to white */
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  

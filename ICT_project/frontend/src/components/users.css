@@ -1,0 +1,98 @@
+.users {
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; /* Ensure vertical alignment */
+    align-items: flex-start; /* Align items to the top of the container */
+}
+
+.blue-btn {
+    background-color: #3498db; /* Blue color */
+    color: white; /* Text color */
+    margin-bottom: 10px; /* Add margin to the bottom of the "Add" button */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Add margin to the top of the table */
+}
+
+.table-header th {
+    background-color: #6672c9;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+
+th {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+/* Center-align content in rows */
+td {
+    text-align: center;
+}
+
+
+.red-btn {
+    background-color: #c21f0d; /* Red color */
+    color: white; /* Text color */
+}
+
+.blue-btn {
+    background-color: #2f26e5; /* Red color */
+    color: white; /* Text color */
+}
+
+.action-buttons {
+    display: flex;
+    align-content: baseline !important;
+    gap: 5px; /* Adjust the gap between buttons as needed */
+}
+
+.action-buttons button,
+.action-buttons a {
+    height: 30px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: baseline !important;
+
+}
